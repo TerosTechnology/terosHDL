@@ -1,0 +1,9 @@
+--langdef=vhdl
+--langmap=vhdl:.vhd
+--regex-vhdl=/^[ \t]*use[ \t]+([^ ]+);/\1/l,libraries/
+--regex-vhdl=/^[ \t]*entity[ \t]+([^ ]+) is/\1/e,entity/
+--regex-vhdl=/^[ \t]*signal[ \t]*([^ ]+)/\1/s,signal/
+--regex-vhdl=/^[ \t]*type[ \t]*([^ ]+)/\1/t,type/
+--regex-vhdl=/^[ \t]*constant[ \t]*([^ ]+)/\1/c,constant/
+--regex-vhdl=/^[ \t]*architecture[ \t]+([^ ]+) of/\1/a,architecture/
+--regex-vhdl=/^[ \t]*([^ \t:]+)[ \t]*:[ \t]*process[ \t]*\(/\1/p,process/
