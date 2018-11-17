@@ -1,9 +1,9 @@
 {
   "name": "TerosHDL",
   "main": "./lib/main",
-  "version": "14.0.0",
-  "description": "Convert a VHDL entity into a VUnit testbench, component, instance or signal definitions, using the clipboard. Convert a VHDL component into a diagram image.",
-  "repository": "https://github.com/qarlosalberto/TerosHDL",
+  "version": "0.0.1",
+  "description": "A powerful HDL IDE with: simulation environment, code coverage, code checking, coce completion, generation of block diagram and tests management.",
+  "repository": "https://github.com/TerosTechnology/terosHDL",
   "keywords": [
     "verilog",
     "ghdl",
@@ -25,7 +25,6 @@
     "lodash": "^4.17.10",
     "vue": "1.0.27-csp",
     "state-machine-cat": ">=4.1.0"
-
   },
   "package-deps": [
     "tool-bar",
