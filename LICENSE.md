@@ -1,7 +1,9 @@
 GNU GENERAL PUBLIC LICENSE
    Version 3, 29 June 2007
 
-Copyright (C) 2018 Ismael Pérez Rojo, Carlos Alberto Ruiz naranjo
+Copyright (C) 2018
+Ismael Pérez Rojo (ismaelprojo@gmail.com)
+Carlos Alberto Ruiz Naranjo (carlosruiznaranjo@gmail.com)
 Everyone is permitted to copy and distribute verbatim copies
 of this license document, but changing it is not allowed.
 
