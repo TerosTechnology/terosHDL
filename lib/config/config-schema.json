@@ -32,6 +32,7 @@
     "properties":
     {
       "ghdl-path": {
+        "order": 1,
         "title": "GHDL path",
         "type": "string",
         "default": "/usr/local/bin/ghdl"
@@ -43,13 +44,13 @@
         "default": ""
       },
       "ghdl-xlib-vivado": {
-        "order": 2,
+        "order": 3,
         "title": "Vivado Xlib Modelsim compiled libraries path",
         "type": "string",
         "default": ""
       },
       "ghdl-xlib-ise": {
-        "order": 3,
+        "order": 4,
         "title": "ISE Xlib Modelsim compiled libraries path",
         "type": "string",
         "default": ""
