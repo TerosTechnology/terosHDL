@@ -39,19 +39,19 @@
       },
       "ghdl-uvvm": {
         "order": 2,
-        "title": "UVVM Modelsim compiled libraries path",
+        "title": "UVVM GHDL compiled libraries path",
         "type": "string",
         "default": ""
       },
       "ghdl-xlib-vivado": {
         "order": 3,
-        "title": "Vivado Xlib Modelsim compiled libraries path",
+        "title": "Vivado Xlib GHDL compiled libraries path",
         "type": "string",
         "default": ""
       },
       "ghdl-xlib-ise": {
         "order": 4,
-        "title": "ISE Xlib Modelsim compiled libraries path",
+        "title": "ISE Xlib GHDL compiled libraries path",
         "type": "string",
         "default": ""
       }
@@ -77,19 +77,19 @@
       },
       "modelsim-uvvm": {
         "order": 3,
-        "title": "UVVM ghdl compiled libraries path",
+        "title": "UVVM ModelSim compiled libraries path",
         "type": "string",
         "default": ""
       },
       "modelsim-xlib-vivado": {
         "order": 4,
-        "title": "Vivado Xlib ghdl compiled libraries path",
+        "title": "Vivado Xlib ModelSim compiled libraries path",
         "type": "string",
         "default": ""
       },
       "modelsim-xlib-ise": {
         "order": 5,
-        "title": "ISE Xlib ghdl compiled libraries path",
+        "title": "ISE Xlib ModelSim compiled libraries path",
         "type": "string",
         "default": ""
       }
