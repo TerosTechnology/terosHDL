@@ -1,0 +1,144 @@
+{
+  "general": {
+    "title": "General",
+    "type": "object",
+    "properties":
+    {
+      "hdl-language": {
+        "order": 1,
+        "title": "HDL language",
+        "description": "***********************************",
+        "type": "string",
+        "default": "vhdl",
+        "enum": ["vhdl","verilog"]
+      },
+      "simulator": {
+        "order": 2,
+        "title": "Simulator",
+        "description": "***********************************",
+        "type": "string",
+        "default": "ghdl",
+        "enum": ["ghdl","modelsim"]
+      },
+      "type-analyzer": {
+        "order": 3,
+        "title": "Type analyzer",
+        "description": "***********************************",
+        "type": "boolean",
+        "default": false
+      }
+    }
+  },
+  "ghdl": {
+    "title": "ghdl",
+    "type": "object",
+    "properties":
+    {
+      "ghdl-path": {
+        "order": 1,
+        "title": "GHDL path",
+        "description": "***********************************",
+        "type": "string",
+        "default": "/usr/local/bin/ghdl"
+      },
+      "ghdl-uvvm": {
+        "order": 2,
+        "title": "UVVM GHDL compiled libraries path",
+        "description": "***********************************",
+        "type": "string",
+        "default": ""
+      },
+      "ghdl-xlib-vivado": {
+        "order": 3,
+        "title": "Vivado Xlib GHDL compiled libraries path",
+        "description": "***********************************",
+        "type": "string",
+        "default": ""
+      },
+      "ghdl-xlib-ise": {
+        "order": 4,
+        "title": "ISE Xlib GHDL compiled libraries path",
+        "description": "***********************************",
+        "type": "string",
+        "default": ""
+      }
+    }
+  },
+
+  "modelsim": {
+    "title": "Modelsim",
+    "type": "object",
+    "properties":
+    {
+      "modelsim-path": {
+        "order": 1,
+        "title": "Modelsim path",
+        "description": "***********************************",
+        "type": "string",
+        "default": "/opt/modelsim/18.0/modelsim_ase/linuxaloem"
+      },
+      "modelsim-ini": {
+        "order": 2,
+        "title": "Modelsim ini",
+        "description": "***********************************",
+        "type": "string",
+        "default": "/opt/modelsim/18.0/modelsim_ase/modelsim.ini"
+      },
+      "modelsim-uvvm": {
+        "order": 3,
+        "title": "UVVM ModelSim compiled libraries path",
+        "description": "***********************************",
+        "type": "string",
+        "default": ""
+      },
+      "modelsim-xlib-vivado": {
+        "order": 4,
+        "title": "Vivado Xlib ModelSim compiled libraries path",
+        "description": "***********************************",
+        "type": "string",
+        "default": ""
+      },
+      "modelsim-xlib-ise": {
+        "order": 5,
+        "title": "ISE Xlib ModelSim compiled libraries path",
+        "description": "***********************************",
+        "type": "string",
+        "default": ""
+      }
+    }
+  },
+
+  "others": {
+    "title": "Others",
+    "type": "object",
+    "properties":
+    {
+      "sim-display-mode": {
+        "title": "Display mode",
+        "description": "***********************************",
+        "type": "string",
+        "default": "terminal"
+      },
+      "sim-args": {
+        "title": "Simulation args",
+        "description": "***********************************",
+        "type": "string",
+        "default": ""
+      },
+      "sim-gtkwave-file-out": {
+        "title": "Gtkwave file",
+        "description": "***********************************",
+        "type": "string",
+        "default": "/home/wave.ghw"
+      },
+      "sim-gtkwave-output": {
+        "title": "Gtkwave output",
+        "description": "***********************************",
+        "type": "string",
+        "default": "ghw"
+      }
+    }
+  }
+
+
+}

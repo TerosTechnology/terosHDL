@@ -1,0 +1,80 @@
+<!-- Copyright 2018 Carlos Alberto Ruiz Naranjo, Ismael Pérez Rojo
+
+This file is part of TerosHDL.
+
+TerosHDL is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+TerosHDL is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with TerosHDL.  If not, see <https://www.gnu.org/licenses/>. -->
+
+<div class="vunit-template">
+  <h1>TerosHDL: create VUnit run.py</h1>
+
+  <section>
+    <div class="name-text-wrapper">
+      <h2>Module name:</h2>
+      <div class="settings-view">
+        <input class="name-text input-text  input-text" type="text" name="fname" placeholder='Module name'><br>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="module-src-select-wrapper">
+      <h2>Module sources:</h2>
+      <div class="settings-view">
+        <textarea class="list-module input-textarea" type="text" readonly></textarea>
+        <button class="module-sources-button btn btn-default">Select</button>
+        <button class="clean-button-src n icon icon-trashcan btn btn-success selected inline-block-tight">Clear</button>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="tb-src-select-wrapper">
+      <h2>Testbench sources:</h2>
+      <div class="settings-view">
+        <textarea class="list-tb input-textarea" type="text" readonly></textarea>
+        <button class="tb-sources-button btn btn-default">Select</button>
+        <button class="clean-button-tb n icon icon-trashcan btn btn-success selected inline-block-tight">Clear</button>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="mode-select-wrapper">
+      </br>
+      <label class='input-label'><input class='vunit-xilinx input-checkbox' type='checkbox'>Xilinx libraries</label>
+      <label class='input-label'><input class='vunit-pre-check input-checkbox' type='checkbox'>PreCheck</label>
+      <label class='input-label'><input class='vunit-post-check input-checkbox' type='checkbox'>PostCheck</label>
+      <label class='input-label'><input class='vunit-uvvm input-checkbox' type='checkbox'>UVVM</label>
+      <label class='input-label'><input class='vunit-complex input-checkbox' type='checkbox'>Complex</label>
+    </div>
+  </section>
+
+  <section>
+    <div class="directory-select-wrapper">
+      <h2>Output directory:</h2>
+      <div class="settings-view">
+        <!-- <select class="directory-select dir-select-part form-control"></select> -->
+        <button class="other-directory btn btn-default">Select</button>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    </br>
+    <div class="controls">
+      <button class="do-init btn btn-lg btn-primary" disabled="disabled">Initialize</button>
+      <button class="cancel btn btn-lg btn-link">Cancel</button>
+    </div>
+  </section>
+</div>

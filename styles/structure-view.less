@@ -1,0 +1,130 @@
+// MIT License
+// Copyright (c) 2017 Alibaba Group Holding Limited and other contributors.
+// Permission is hereby granted, free of charge, to any person obtaining a copy of
+// this software and associated documentation files (the "Software"), to deal in the
+// Software without restriction, including without limitation the rights to use,
+// copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
+// Software, and to permit persons to whom the Software is furnished to do so,
+// subject to the following conditions:
+// The above copyright notice and this permission notice shall be included in all
+// copies or substantial portions of the Software.
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+// INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+// PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+// HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+// OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+// SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+@import "ui-variables";
+
+.structure-view {
+  width: 100%;
+  height: 100%;
+  padding: 4px;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  .mask {
+    display: none;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0,0%,100%,.4);
+
+    > div {
+      height: 40%;
+    }
+  }
+
+  .list-tree.has-collapsable-children .list-nested-item > .list-item::before {
+    margin-right: 2px;
+  }
+
+  .full-menu {
+    user-select: none;
+  }
+
+  div.symbol-mixed-block {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 14px;
+  }
+
+  div.list-item {
+    margin-left: 2.5px;
+  }
+
+  div.icon-circle {
+    min-width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+  }
+
+  div.icon-S {
+    background-color: #6cc644;
+  }
+
+  div.icon-A,
+  div.icon-P {
+    background-color: #6e5494;
+  }
+
+  div.icon-E {
+    background-color: #40b4e5;
+  }
+
+  div.icon-C,
+  div.icon-D {
+    background-color: #f45ba3;
+  }
+
+  div.icon-P,
+  div.icon-I,
+  div.icon-V {
+    background-color: #fc6d26;
+  }
+
+  div.icon-F,
+  div.icon-M {
+    background-color: #ea4335;
+  }
+
+  div.icon-T {
+    background-color: #993333;
+  }
+
+  div.icon-U {
+    background-color: #6a737b;
+  }
+
+  div.icon-circle > span {
+    font-size: 11px;
+    color: white;
+    font-weight: 600;
+  }
+
+  div.sv-toolbox {
+    border-style: solid;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: @background-color-selected;
+
+    button {
+      margin-bottom: 0.5em;
+    }
+    .btn.icon:before {
+      bottom: 2px;
+    }
+  }
+}
