@@ -41,22 +41,29 @@
         "type": "string",
         "default": "/usr/local/bin/ghdl"
       },
-      "ghdl-uvvm": {
+      "psl-support": {
         "order": 2,
+        "title": "PSL support",
+        "description": "***********************************",
+        "type": "boolean",
+        "default": false
+      },
+      "ghdl-uvvm": {
+        "order": 3,
         "title": "UVVM GHDL compiled libraries path",
         "description": "***********************************",
         "type": "string",
         "default": ""
       },
       "ghdl-xlib-vivado": {
-        "order": 3,
+        "order": 4,
         "title": "Vivado Xlib GHDL compiled libraries path",
         "description": "***********************************",
         "type": "string",
         "default": ""
       },
       "ghdl-xlib-ise": {
-        "order": 4,
+        "order": 5,
         "title": "ISE Xlib GHDL compiled libraries path",
         "description": "***********************************",
         "type": "string",
