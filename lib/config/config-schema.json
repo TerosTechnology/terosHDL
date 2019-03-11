@@ -132,6 +132,12 @@
         "type": "string",
         "default": ""
       },
+      "sim-runpy": {
+        "title": "Run.py file.",
+        "description": "***********************************",
+        "type": "string",
+        "default": ""
+      },
       "sim-gtkwave-file-out": {
         "title": "Gtkwave file",
         "description": "***********************************",
