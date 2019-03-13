@@ -39,4 +39,4 @@ Search package: TerosHDL
 
 ### Runing_test
 
-![Running_test][./doc/images/run_test.gif]
+![Running_test](./doc/images/run_test.gif)
