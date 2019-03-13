@@ -9,7 +9,7 @@
 - Symbolator:
 ```sudo pip install symbolator```
 - TerosHDLbackend:
-```sudo pip install teroshdl```
+```sudo pip install TerosHDL```
 
 For simulation:
 
@@ -36,3 +36,7 @@ For structure-view:
 Search package: TerosHDL
 
 ## Getting started guide
+
+### Runing_test
+
+![Running_test][./doc/images/run_test.gif]
