@@ -37,6 +37,14 @@ Search package: TerosHDL
 
 ## Getting started guide
 
+### Configuring paths
+
+![Configuring_paths](./doc/images/config_paths.gif)
+
 ### Runing_test
 
 ![Running_test](./doc/images/run_test.gif)
+
+### Code_coverage
+
+![Code_coverage](./doc/images/code_coverage.gif)
