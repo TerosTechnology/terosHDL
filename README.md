@@ -48,3 +48,7 @@ Search package: TerosHDL
 ### Code_coverage
 
 ![Code_coverage](./doc/images/code_coverage.gif)
+
+## User Manual
+
+[User_manual](./doc/User_Manual.md)

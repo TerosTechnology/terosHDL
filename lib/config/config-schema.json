@@ -7,7 +7,7 @@
       "hdl-language": {
         "order": 1,
         "title": "HDL language",
-        "description": "***********************************",
+        "description": "Select language support for the IDE.",
         "type": "string",
         "default": "vhdl",
         "enum": ["vhdl","verilog"]
@@ -15,7 +15,7 @@
       "simulator": {
         "order": 2,
         "title": "Simulator",
-        "description": "***********************************",
+        "description": "Select an installed simulator in your system.",
         "type": "string",
         "default": "ghdl",
         "enum": ["ghdl","modelsim"]
@@ -23,7 +23,7 @@
       "type-analyzer": {
         "order": 3,
         "title": "Type analyzer",
-        "description": "***********************************",
+        "description": "Activate ctags.",
         "type": "boolean",
         "default": false
       }
@@ -37,35 +37,35 @@
       "ghdl-path": {
         "order": 1,
         "title": "GHDL path",
-        "description": "***********************************",
+        "description": "GHDL simulator path.",
         "type": "string",
         "default": "/usr/local/bin/ghdl"
       },
       "psl-support": {
         "order": 2,
         "title": "PSL support",
-        "description": "***********************************",
+        "description": "Enable PLS analisys.",
         "type": "boolean",
         "default": false
       },
       "ghdl-uvvm": {
         "order": 3,
         "title": "UVVM GHDL compiled libraries path",
-        "description": "***********************************",
+        "description": "Path to UVVM libraries compiled for GHDL. This can be done with the scripts provided with GHDL.",
         "type": "string",
         "default": ""
       },
       "ghdl-xlib-vivado": {
         "order": 4,
         "title": "Vivado Xlib GHDL compiled libraries path",
-        "description": "***********************************",
+        "description": "Path to Xilinx Vivado libraries compiled for GHDL. This can be done with the scripts provided with GHDL.",
         "type": "string",
         "default": ""
       },
       "ghdl-xlib-ise": {
         "order": 5,
         "title": "ISE Xlib GHDL compiled libraries path",
-        "description": "***********************************",
+        "description": "Path to Xilinx ISE libraries compiled for GHDL. This can be done with the scripts provided with GHDL.",
         "type": "string",
         "default": ""
       }
@@ -80,35 +80,35 @@
       "modelsim-path": {
         "order": 1,
         "title": "Modelsim path",
-        "description": "***********************************",
+        "description": "Path to run vsim.",
         "type": "string",
         "default": "/opt/modelsim/18.0/modelsim_ase/linuxaloem"
       },
       "modelsim-ini": {
         "order": 2,
         "title": "Modelsim ini",
-        "description": "***********************************",
+        "description": "Path to the modelsim.ini file.",
         "type": "string",
         "default": "/opt/modelsim/18.0/modelsim_ase/modelsim.ini"
       },
       "modelsim-uvvm": {
         "order": 3,
         "title": "UVVM ModelSim compiled libraries path",
-        "description": "***********************************",
+        "description": "Path to UVVM libraries compiled for ModelSim. This can be done with the scripts provided with UVVM.",
         "type": "string",
         "default": ""
       },
       "modelsim-xlib-vivado": {
         "order": 4,
         "title": "Vivado Xlib ModelSim compiled libraries path",
-        "description": "***********************************",
+        "description": "Path to Xilinx libraries compiled for ModelSim. This can be done with Vivado.",
         "type": "string",
         "default": ""
       },
       "modelsim-xlib-ise": {
         "order": 5,
         "title": "ISE Xlib ModelSim compiled libraries path",
-        "description": "***********************************",
+        "description": "Path to Xilinx ISE libraries compiled for ModelSim.",
         "type": "string",
         "default": ""
       }
@@ -122,13 +122,13 @@
     {
       "sim-display-mode": {
         "title": "Display mode",
-        "description": "***********************************",
+        "description": "Select between a wave visualizer or a terminal output.",
         "type": "string",
         "default": "terminal"
       },
       "sim-args": {
         "title": "Simulation args",
-        "description": "***********************************",
+        "description": "Arguments to sendo to Vunit python files in order to set generics, generate test or configuring simulations.",
         "type": "string",
         "default": ""
       },
@@ -146,13 +146,13 @@
       },
       "sim-gtkwave-file-out": {
         "title": "Gtkwave file",
-        "description": "***********************************",
+        "description": "Select the file with saved configuration of waveforms of the visualizer tool.",
         "type": "string",
         "default": "/home/wave.ghw"
       },
       "sim-gtkwave-output": {
         "title": "Gtkwave output",
-        "description": "***********************************",
+        "description": "Format of the waveform file. It depends on the tool used to visualize waveforms.",
         "type": "string",
         "default": "ghw"
       },
