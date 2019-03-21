@@ -8,8 +8,8 @@
 
 - Symbolator:
 ```sudo pip install symbolator```
-- PyZZa-hdl:
-```sudo pip install pyzza_hdl```
+- TerosHDLbackend:
+```sudo pip install TerosHDL```
 
 For simulation:
 
@@ -26,3 +26,25 @@ For waveform:
 For structure-view:
 
 - ctags
+
+## Installation
+
+- From source code:
+```apm link .```
+```apm install```
+- From atom:
+Search package: TerosHDL
+
+## Getting started guide
+
+### Configuring paths
+
+![Configuring_paths](./doc/images/config_paths.gif)
+
+### Runing_test
+
+![Running_test](./doc/images/run_test.gif)
+
+### Code_coverage
+
+![Code_coverage](./doc/images/code_coverage.gif)

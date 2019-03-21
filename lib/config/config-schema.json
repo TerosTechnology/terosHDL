@@ -132,6 +132,18 @@
         "type": "string",
         "default": ""
       },
+      "sim-runpy": {
+        "title": "Run.py file.",
+        "description": "***********************************",
+        "type": "string",
+        "default": ""
+      },
+      "sim-runpy-new": {
+        "title": "Run.py file new.",
+        "description": "***********************************",
+        "type": "string",
+        "default": ""
+      },
       "sim-gtkwave-file-out": {
         "title": "Gtkwave file",
         "description": "***********************************",
@@ -143,9 +155,19 @@
         "description": "***********************************",
         "type": "string",
         "default": "ghw"
+      },
+      "sim-tests": {
+        "title": "Tests names",
+        "description": "***********************************",
+        "type": "string",
+        "default": ""
+      },
+      "sim-tests-new": {
+        "title": "Tests names new",
+        "description": "***********************************",
+        "type": "string",
+        "default": ""
       }
     }
   }
-
-
 }
