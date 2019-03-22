@@ -28,34 +28,8 @@
             "type": "separator"
           },
           {
-            "label": "Run test",
-            "command": "TerosHDL:run-test"
-          },
-          {
-            "label": "Show code coverage",
-            "command": "TerosHDL:show-coverage"
-          },
-          {
-            "type": "separator"
-          },
-          {
             "label": "Copy as Image Diagram",
             "command": "TerosHDL:copy-as-image"
-          },
-          {
-            "type": "separator"
-          },
-          {
-            "label": "maker",
-            "command": "TerosHDL:marker"
-          },
-          {
-            "label": "structure-view",
-            "command": "TerosHDL:show-structure"
-          },
-          {
-            "label": "goto",
-            "command": "TerosHDL:goto"
           }
         ]
       }
@@ -89,34 +63,8 @@
               "type": "separator"
             },
             {
-              "label": "Run test",
-              "command": "TerosHDL:run-test"
-            },
-            {
-              "label": "Show code coverage",
-              "command": "TerosHDL:show-coverage"
-            },
-            {
-              "type": "separator"
-            },
-            {
               "label": "Copy as Image Diagram",
               "command": "TerosHDL:copy-as-image"
-            },
-            {
-              "type": "separator"
-            },
-            {
-              "label": "maker",
-              "command": "TerosHDL:marker"
-            },
-            {
-              "label": "structure-view",
-              "command": "TerosHDL:show-structure"
-            },
-            {
-              "label": "goto",
-              "command": "TerosHDL:goto"
             }
       ]
     }
