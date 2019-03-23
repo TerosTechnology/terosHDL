@@ -167,6 +167,12 @@
         "description": "***********************************",
         "type": "string",
         "default": ""
+      },
+      "sim-coverage-report-folder": {
+        "title": "Coverage report folder",
+        "description": "Select the folder to save the code coverage report. Relative to run.py file.",
+        "type": "string",
+        "default": "html"
       }
     }
   }
