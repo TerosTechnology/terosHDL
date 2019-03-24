@@ -41,6 +41,12 @@
         "type": "string",
         "default": "/usr/local/bin/ghdl"
       },
+      "sim-coverage-report-folder": {
+        "title": "Coverage report folder",
+        "description": "Select the folder to save the code coverage report. Relative to run.py file.",
+        "type": "string",
+        "default": "html"
+      },
       "psl-support": {
         "order": 2,
         "title": "PSL support",
@@ -167,12 +173,6 @@
         "description": "***********************************",
         "type": "string",
         "default": ""
-      },
-      "sim-coverage-report-folder": {
-        "title": "Coverage report folder",
-        "description": "Select the folder to save the code coverage report. Relative to run.py file.",
-        "type": "string",
-        "default": "html"
       }
     }
   }
