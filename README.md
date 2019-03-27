@@ -49,13 +49,13 @@ For structure-view:
 
 ## User Manual
 
-You have a complete [user_manual](https://github.com/TerosTechnology/terosHDL/blob/develop/doc/User_Manual.md)
+You have a complete [user manual].(https://github.com/TerosTechnology/terosHDL/blob/develop/doc/User_Manual.md)
 
 
 # License
 
 Copyright (c) 2018-Present
-Carlos Alberto Ruiz Naranjo, <carlosruiznaranjo@gmail.com>
-Ismael Pérez Rojo, <ismaelprojo@gmail.com>
+- Carlos Alberto Ruiz Naranjo, <carlosruiznaranjo@gmail.com>
+- Ismael Pérez Rojo, <ismaelprojo@gmail.com>
 
 TerosHDL is licensed under GPLv3.
