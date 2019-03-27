@@ -9,7 +9,7 @@
 - Symbolator:
 ```pip install symbolator```
 - TerosHDLbackend:
-```sudo pip install TerosHDL```
+```pip install TerosHDL```
 - VUnit:
 ```pip install vunit_hdl```
 
@@ -39,17 +39,18 @@ For structure-view:
 
 ![Configuring_paths](./doc/images/config_paths.gif)
 
-### Runing_test
+### Runing test
 
 ![Running_test](./doc/images/run_test.gif)
 
-### Code_coverage
+### Code coverage
 
 ![Code_coverage](./doc/images/code_coverage.gif)
 
 ## User Manual
 
-[User_manual](./doc/User_Manual.md)
+You have a complete [user_manual](https://github.com/TerosTechnology/terosHDL/blob/develop/doc/User_Manual.md)
+
 
 # License
 
