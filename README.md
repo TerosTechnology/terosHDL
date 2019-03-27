@@ -49,7 +49,7 @@ For structure-view:
 
 ## User Manual
 
-You have a complete [user manual].(https://github.com/TerosTechnology/terosHDL/blob/develop/doc/User_Manual.md)
+You have a complete [user manual.](https://github.com/TerosTechnology/terosHDL/blob/develop/doc/User_Manual.md)
 
 
 # License
