@@ -7,9 +7,11 @@
 ## Dependencies
 
 - Symbolator:
-```sudo pip install symbolator```
+```pip install symbolator```
 - TerosHDLbackend:
 ```sudo pip install TerosHDL```
+- VUnit:
+```pip install vunit_hdl```
 
 For simulation:
 
@@ -17,23 +19,19 @@ For simulation:
 
 For code coverage:
 
-- ghdl with gcc backend.
+- Ghdl with GCC backend.
 
 For waveform:
 
-- gtkwave.
+- GTKWave/ModelSim
 
 For structure-view:
 
-- ctags
+- Ctags
 
 ## Installation
 
-- From source code:
-```apm link .```
-```apm install```
-- From atom:
-Search package: TerosHDL
+```apm install terosHDL```
 
 ## Getting started guide
 
@@ -52,3 +50,11 @@ Search package: TerosHDL
 ## User Manual
 
 [User_manual](./doc/User_Manual.md)
+
+# License
+
+Copyright (c) 2018-Present
+Carlos Alberto Ruiz Naranjo, <carlosruiznaranjo@gmail.com>
+Ismael Pérez Rojo, <ismaelprojo@gmail.com>
+
+TerosHDL is licensed under GPLv3.
