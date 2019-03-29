@@ -1,5 +1,6 @@
-![alt text](./doc/images/teros.png)
-
+<p align="center">
+  <img src="./doc/images/teros.png">
+</p>
 
 
 # TerosHDL
