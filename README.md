@@ -1,4 +1,4 @@
-<p align="center">
+<p align="right">
   <img src="./doc/images/teros.png">
 </p>
 
