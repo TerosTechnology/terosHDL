@@ -52,6 +52,12 @@ If AXI lite is being used the testbench will include code to test the bus with U
 This will open a dialog to select the source files and the testbench files. You can also select the location of the file, the name and to include libraries for simulation.
 You can also mark other checks if you wish to modify the python file manually and add more complex test.
 
+## Code structure
+
+![repository](./images/toolbar_ctags.png)
+
+This button open or close the structure view panel.
+
 ## Run.py arguments configuration
 
 ![repository](./images/toolbar_configtest.png)
@@ -75,20 +81,63 @@ This is the button used to run the test in your design with the previous configu
 
 ![repository](./images/test_output.png)
 
-## Recompile
+## Stop test
 
-Sometimes you need to recompile the whole design, it can be done that with this button.
+![repository](./images/toolbar_stoptest.png)
+
+If you wish to cancel the a launched test you can use this button.
+
+## Recompile
 
 ![repository](./images/toolbar_refresh.png)
 
-## Browse code coverage report
+Sometimes you need to recompile the whole design, it can be done that with this button.
 
-Take into acount that the code coverage is the sum of all the test run
+## Browse code coverage report
 
 ![repository](./images/toolbar_coverage.png)
 
+Take into acount that the code coverage is the sum of all the test run
+
 ## Switch simulator.
+
+![repository](./images/toolbar_simulator.png)
 
 Switch between simulators just pressing this button.
 
-![repository](./images/toolbar_simulator.png)
+## Symbolator view.
+
+![repository](./images/toolbar_symbolator.png)
+
+![repository](./images/symbolator_component.png)
+
+Here you can create an image of the inputs and outputs of the module. You just need to put the cursor selecting the component of a module you want to draw.
+
+## Copy as doc.
+
+![repository](./images/toolbar_portdoc.png)
+
+With this button you will get a port table in markdown format of an entity of your choice.
+
+| Port name | Type                          | Description |
+| --------- | ----------------------------- | ----------- |
+| clk       | std_logic                     |   N/A       |
+| reset     | std_logic                     |   N/A       |
+| in_1      | std_logic_vector (4 downto 0) |   N/A       |
+| in_2      | std_logic_vector (4 downto 0) |   N/A       |
+| in_3      | std_logic_vector (4 downto 0) |   N/A       |
+| sum       | std_logic_vector (7 downto 0) |   N/A       |
+
+
+## Link to this manual.
+
+![repository](./images/toolbar_usermanual.png)
+
+You will be redirected to the last versión of the manual. Make sure it matches with your TerosHDL version.
+
+
+## Toggle console.
+
+![repository](./images/toolbar_toggleconsole.png)
+
+Pressing this button you can show or hide the console panel.
