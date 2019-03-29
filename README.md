@@ -3,8 +3,6 @@
 </p>
 
 
-# TerosHDL
-
 **Our philosophy is: thinking hardware, developing hardware, [take advantage software tools.](https://github.com/qarlosalberto/fpga-knife)**
 
 The main task of TerosHDL is make the FPGA development easier and reliable.  It is a powerful open source IDE.
