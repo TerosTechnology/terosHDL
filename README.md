@@ -1,4 +1,4 @@
-![alt text](./images/teros.png)
+![alt text](./doc/images/teros.png)
 
 
 
