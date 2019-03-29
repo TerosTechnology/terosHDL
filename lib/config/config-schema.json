@@ -122,55 +122,55 @@
   },
 
   "others": {
-    "title": "Others",
+    "title": "Others: Do not touch manually!!",
     "type": "object",
     "properties":
     {
       "sim-display-mode": {
         "title": "Display mode",
-        "description": "Select between a wave visualizer or a terminal output.",
+        "description": "**Do not touch manually!!**",
         "type": "string",
         "default": "terminal"
       },
       "sim-args": {
         "title": "Simulation args",
-        "description": "Arguments to sendo to Vunit python files in order to set generics, generate test or configuring simulations.",
+        "description": "**Do not touch manually!!**",
         "type": "string",
         "default": ""
       },
       "sim-runpy": {
         "title": "Run.py file.",
-        "description": "***********************************",
+        "description": "**Do not touch manually!!**",
         "type": "string",
         "default": ""
       },
       "sim-runpy-new": {
         "title": "Run.py file new.",
-        "description": "***********************************",
+        "description": "**Do not touch manually!!**",
         "type": "string",
         "default": ""
       },
       "sim-gtkwave-file-out": {
         "title": "Gtkwave file",
-        "description": "Select the file with saved configuration of waveforms of the visualizer tool.",
+        "description": "**Do not touch manually!!**",
         "type": "string",
         "default": "/home/wave.ghw"
       },
       "sim-gtkwave-output": {
         "title": "Gtkwave output",
-        "description": "Format of the waveform file. It depends on the tool used to visualize waveforms.",
+        "description": "**Do not touch manually!!**",
         "type": "string",
         "default": "ghw"
       },
       "sim-tests": {
         "title": "Tests names",
-        "description": "***********************************",
+        "description": "**Do not touch manually!!**",
         "type": "string",
         "default": ""
       },
       "sim-tests-new": {
         "title": "Tests names new",
-        "description": "***********************************",
+        "description": "**Do not touch manually!!**",
         "type": "string",
         "default": ""
       }
