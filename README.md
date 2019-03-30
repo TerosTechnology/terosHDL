@@ -57,7 +57,11 @@ For structure-view:
 
 ### Code coverage
 
-![Code_coverage](./doc/images/code_coverage.gif)
+![Code_coverage](./doc/images/code_coverage_0.gif)
+
+</br>
+
+![Code_coverage](./doc/images/code_coverage_1.gif)
 
 ### Creating component diagram
 
