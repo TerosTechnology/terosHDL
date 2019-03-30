@@ -1,7 +1,6 @@
-<p align="right">
-  <img src="./doc/images/teros_logo.png">
-</p>
+<img src="./doc/images/teros_logo.png" align="right">
 
+# TerosHDL
 
 **Our philosophy is: thinking hardware, developing hardware, [take advantage software tools.](https://github.com/qarlosalberto/fpga-knife)**
 
