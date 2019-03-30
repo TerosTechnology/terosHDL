@@ -1,0 +1,7 @@
+'.source.vhdl':
+  'symbolator-sample':
+    'prefix': 'symbolator'
+    'body':    '--# {{clocks|Clock signals}}'
+  'vunit-watchdog':
+    'prefix': 'watchdog'
+    'body':    'test_runner_watchdog(runner, 30 us);'

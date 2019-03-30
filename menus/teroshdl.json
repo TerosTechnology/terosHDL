@@ -30,6 +30,10 @@
           {
             "label": "Copy as Image Diagram",
             "command": "TerosHDL:copy-as-image"
+          },
+          {
+            "label": "Copy as doc",
+            "command": "TerosHDL:doc-ports"
           }
         ]
       }
@@ -65,6 +69,10 @@
             {
               "label": "Copy as Image Diagram",
               "command": "TerosHDL:copy-as-image"
+            },
+            {
+              "label": "Copy as doc",
+              "command": "TerosHDL:doc-ports"
             }
       ]
     }
