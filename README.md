@@ -1,4 +1,4 @@
-<img src="./doc/images/teros.svg" align="right" width=50% height=50%>
+<img src="./doc/images/teros_logo.png" align="right" width=10%>
 
 # TerosHDL
 
