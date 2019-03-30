@@ -1,5 +1,5 @@
 <p align="right">
-  <img src="./doc/images/teros.png">
+  <img src="./doc/images/teros_logo.png">
 </p>
 
 
