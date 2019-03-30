@@ -1,8 +1,21 @@
-**UNDER TESTS!!!!!!!**
-**UNDER TESTS!!!!!!!**
-**UNDER TESTS!!!!!!!**
+<p align="right">
+  <img src="./doc/images/teros.png">
+</p>
 
-# TerosHDL
+
+**Our philosophy is: thinking hardware, developing hardware, [take advantage software tools.](https://github.com/qarlosalberto/fpga-knife)**
+
+The main task of TerosHDL is make the FPGA development easier and reliable.  It is a powerful open source IDE.
+
+Currently we support:
+
+- Ghdl.
+- ModelSim.
+- Vhdl
+- VUnit.
+
+Soon we will support Verilog and others simulators.
+
 
 ## Dependencies
 
@@ -47,10 +60,21 @@ For structure-view:
 
 ![Code_coverage](./doc/images/code_coverage.gif)
 
+### Creating component diagram
+
+![diagram](./doc/images/diagram.gif)
+
+### Creating port documentation
+
+![diagram](./doc/images/doc.gif)
+
+### Structure view
+
+![diagram](./doc/images/view.gif)
+
 ## User Manual
 
 You have a complete [user manual.](https://github.com/TerosTechnology/terosHDL/blob/develop/doc/User_Manual.md)
-
 
 # License
 
