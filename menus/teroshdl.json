@@ -34,6 +34,10 @@
           {
             "label": "Copy as doc",
             "command": "TerosHDL:doc-ports"
+          },
+          {
+            "label": "State machine diagram",
+            "command": "TerosHDL:state-machine"
           }
         ]
       }
@@ -73,6 +77,10 @@
             {
               "label": "Copy as doc",
               "command": "TerosHDL:doc-ports"
+            },
+            {
+              "label": "State machine diagram",
+              "command": "TerosHDL:state-machine"
             }
       ]
     }

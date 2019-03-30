@@ -72,6 +72,12 @@ For structure-view:
 
 ![diagram](./doc/images/view.gif)
 
+### State machine diagram
+
+This is an experimental feature. Not all state machines are supported.
+
+![diagram](./doc/images/state_machine.gif)
+
 ## User Manual
 
 You have a complete [user manual.](https://github.com/TerosTechnology/terosHDL/blob/develop/doc/User_Manual.md)
