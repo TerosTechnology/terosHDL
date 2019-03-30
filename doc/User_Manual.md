@@ -97,7 +97,9 @@ Sometimes you need to recompile the whole design, it can be done that with this 
 
 ![repository](./images/toolbar_coverage.png)
 
-Take into acount that the code coverage is the sum of all the test run
+Take into acount that the code coverage is the sum of all the test run.
+
+***It is necessary to recompile if you want to update the code coverage.***
 
 ## Switch simulator.
 
