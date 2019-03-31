@@ -1,11 +1,11 @@
-<p align="right">
-  <img src="./doc/images/teros.png">
-</p>
+<img src="./doc/images/teros_logo.png" align="right" width=15%>
 
+# TerosHDL
 
-**Our philosophy is: thinking hardware, developing hardware, [take advantage software tools.](https://github.com/qarlosalberto/fpga-knife)**
+**Our philosophy is: think in hardware, develop hardware, [take advantage of software tools.](https://github.com/qarlosalberto/fpga-knife)**
 
-The main task of TerosHDL is make the FPGA development easier and reliable.  It is a powerful open source IDE.
+The goal of TerosHDL is make the FPGA development easier and reliable.  It is a powerful open source IDE.
+
 
 Currently we support:
 
@@ -14,14 +14,14 @@ Currently we support:
 - Vhdl
 - VUnit.
 
-Soon we will support Verilog and others simulators.
+Soon we will support Verilog, Windows and others simulators.
 
 
 ## Dependencies
 
 - Symbolator:
 ```pip install symbolator```
-- TerosHDLbackend:
+- TerosHDLbackend >= 0.1.0:
 ```pip install TerosHDL```
 - VUnit:
 ```pip install vunit_hdl```
@@ -37,10 +37,6 @@ For code coverage:
 For waveform:
 
 - GTKWave/ModelSim
-
-For structure-view:
-
-- Ctags
 
 ## Installation
 
@@ -58,7 +54,11 @@ For structure-view:
 
 ### Code coverage
 
-![Code_coverage](./doc/images/code_coverage.gif)
+![Code_coverage](./doc/images/code_coverage_0.gif)
+
+</br>
+
+![Code_coverage](./doc/images/code_coverage_1.gif)
 
 ### Creating component diagram
 
@@ -71,6 +71,12 @@ For structure-view:
 ### Structure view
 
 ![diagram](./doc/images/view.gif)
+
+### State machine diagram
+
+This is an experimental feature. Not all state machines are supported.
+
+![diagram](./doc/images/state_machine.gif)
 
 ## User Manual
 
