@@ -46,25 +46,28 @@ For waveform:
 
 ### Runing test
 
-![Running_test](./doc/images/run_test.gif)
+![Running_test](https://raw.githubusercontent.com/TerosTechnology/terosHDL/develop/doc/images/run_test.gif
+)
 
 ### Code coverage
 
-![Code_coverage](./doc/images/code_coverage_1.gif)
+![Code_coverage](https://raw.githubusercontent.com/TerosTechnology/terosHDL/develop/doc/images/code_coverage_1.gif
+)
 
 ### Creating component diagram
 
-![diagram](./doc/images/diagram.gif)
+![diagram](https://raw.githubusercontent.com/TerosTechnology/terosHDL/develop/doc/images/diagram.gif)
 
 ### Structure view
 
-![diagram](./doc/images/view.gif)
+![diagram](https://raw.githubusercontent.com/TerosTechnology/terosHDL/develop/doc/images/view.gif)
 
 ### State machine diagram
 
 This is an experimental feature. Not all state machines are supported.
 
-![diagram](./doc/images/state_machine.gif)
+![diagram](https://raw.githubusercontent.com/TerosTechnology/terosHDL/develop/doc/images/state_machine.gif
+)
 
 ## User Manual
 
