@@ -80,7 +80,7 @@ This is an experimental feature. Not all state machines are supported.
 
 ## User Manual
 
-You have a complete [user manual.](https://github.com/TerosTechnology/terosHDL/blob/develop/doc/User_Manual.md)
+You have a complete [user manual.](https://github.com/TerosTechnology/terosHDL/blob/master/doc/User_Manual.md)
 
 # License
 
