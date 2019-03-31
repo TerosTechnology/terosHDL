@@ -2,7 +2,7 @@
   "name": "TerosHDL",
   "main": "./lib/main",
   "version": "1.0.0",
-  "description": "A powerful HDL IDE with: simulation environment, code coverage, code checking, coce completion, generation of block diagram and tests management.",
+  "description": "A powerful HDL IDE with: simulation environment, code coverage, code checking, code completion, generation of block diagram and tests management.",
   "repository": "https://github.com/TerosTechnology/terosHDL",
   "keywords": [
     "modelsim",
