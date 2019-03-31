@@ -44,29 +44,17 @@ For waveform:
 
 ## Getting started guide
 
-### Configuring paths
-
-![Configuring_paths](./doc/images/config_paths.gif)
-
 ### Runing test
 
 ![Running_test](./doc/images/run_test.gif)
 
 ### Code coverage
 
-![Code_coverage](./doc/images/code_coverage_0.gif)
-
-</br>
-
 ![Code_coverage](./doc/images/code_coverage_1.gif)
 
 ### Creating component diagram
 
 ![diagram](./doc/images/diagram.gif)
-
-### Creating port documentation
-
-![diagram](./doc/images/doc.gif)
 
 ### Structure view
 
