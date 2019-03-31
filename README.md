@@ -14,14 +14,14 @@ Currently we support:
 - Vhdl
 - VUnit.
 
-Soon we will support Verilog and others simulators.
+Soon we will support Verilog, Windows and others simulators.
 
 
 ## Dependencies
 
 - Symbolator:
 ```pip install symbolator```
-- TerosHDLbackend:
+- TerosHDLbackend >= 0.1.0:
 ```pip install TerosHDL```
 - VUnit:
 ```pip install vunit_hdl```
