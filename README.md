@@ -2,9 +2,10 @@
 
 # TerosHDL
 
-**Our philosophy is: thinking hardware, developing hardware, [take advantage software tools.](https://github.com/qarlosalberto/fpga-knife)**
+**Our philosophy is: think in hardware, develop hardware, [take advantage of software tools.](https://github.com/qarlosalberto/fpga-knife)**
 
-The main task of TerosHDL is make the FPGA development easier and reliable.  It is a powerful open source IDE.
+The goal of TerosHDL is make the FPGA development easier and reliable.  It is a powerful open source IDE.
+
 
 Currently we support:
 
