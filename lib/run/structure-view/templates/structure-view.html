@@ -1,0 +1,17 @@
+<div class='structure-view'>
+  <div class="sv-toolbox block">
+    <button class="inline-block-tight btn icon icon-screen-normal" value="collapse" title="Collapse All"  @click="onToggleWholeTree"></button>
+    <button class="inline-block-tight btn icon icon-screen-full" value="expand" title="Expand All" @click="onToggleWholeTree"></button>
+    <!-- <button class="inline-block-tight btn icon icon-question" @click="onClickGuide" title="Guide"></button> -->
+    <!-- <button class="inline-block-tight btn icon icon-settings" @click="onOpenSettingsTab" title="Settings"></button> -->
+  </div>
+  <div class="no-file-hint" v-show="noTagHint"><pre>{{noTagHint}}</pre></div>
+  <div class="tree-panel" v-show="!noTagHint">
+    <ol class="full-menu list-tree has-collapsable-children" @click="onSelectTreeNode" @dblclick="onToggleTreeNode">
+    </ol>
+  </div>
+  <div class="mask">
+    <div>&nbsp;</div>
+    <span class='loading loading-spinner-small inline-block'></span>
+  </div>
+</div>

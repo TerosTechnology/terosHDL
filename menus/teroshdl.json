@@ -1,0 +1,88 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "TerosHDL",
+        "submenu": [
+          {
+            "label": "Copy as Component",
+            "command": "TerosHDL:copy-as-component"
+          },
+          {
+            "label": "Copy as Instance",
+            "command": "TerosHDL:copy-as-instance"
+          },
+          {
+            "label": "Copy as Signals",
+            "command": "TerosHDL:copy-as-signals"
+          },
+          {
+            "label": "Copy as Tb",
+            "command": "TerosHDL:copy-as-tb"
+          },
+          {
+            "label": "Create run.py VUnit",
+            "command": "TerosHDL:create-run"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "Copy as Image Diagram",
+            "command": "TerosHDL:copy-as-image"
+          },
+          {
+            "label": "Copy as doc",
+            "command": "TerosHDL:doc-ports"
+          },
+          {
+            "label": "State machine diagram",
+            "command": "TerosHDL:state-machine"
+          }
+        ]
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "TerosHDL",
+      "submenu": [
+            {
+              "label": "Copy as Component",
+              "command": "TerosHDL:copy-as-component"
+            },
+            {
+              "label": "Copy as Instance",
+              "command": "TerosHDL:copy-as-instance"
+            },
+            {
+              "label": "Copy as Signals",
+              "command": "TerosHDL:copy-as-signals"
+            },
+            {
+              "label": "Copy as Tb",
+              "command": "TerosHDL:copy-as-tb"
+            },
+            {
+              "label": "Create run.py VUnit",
+              "command": "TerosHDL:create-run"
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "label": "Copy as Image Diagram",
+              "command": "TerosHDL:copy-as-image"
+            },
+            {
+              "label": "Copy as doc",
+              "command": "TerosHDL:doc-ports"
+            },
+            {
+              "label": "State machine diagram",
+              "command": "TerosHDL:state-machine"
+            }
+      ]
+    }
+  ]
+}

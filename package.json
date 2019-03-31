@@ -1,0 +1,47 @@
+{
+  "name": "TerosHDL",
+  "main": "./lib/main",
+  "version": "1.0.0",
+  "description": "A powerful HDL IDE with: simulation environment, code coverage, code checking, code completion, generation of block diagram and tests management.",
+  "repository": "https://github.com/TerosTechnology/terosHDL",
+  "keywords": [
+    "modelsim",
+    "verilog",
+    "ghdl",
+    "vhdl",
+    "VUnit",
+    "fpga",
+    "hdl"
+  ],
+  "license": "GPL-3.0",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "shelljs": ">=0.8.2",
+    "child-process-promise": "^2.2.1",
+    "electron-better-dialog": ">=1.0.6",
+    "atom-package-deps": "^4.3.1",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.10",
+    "vue": "1.0.27-csp",
+    "state-machine-cat": ">=4.1.0"
+  },
+  "package-deps": [
+    "tool-bar",
+    "console-panel",
+    "language-vhdl"
+  ],
+  "consumedServices": {
+    "tool-bar": {
+      "versions": {
+        "^0 || ^1": "consumeToolBar"
+      }
+    },
+    "console-panel": {
+      "versions": {
+        "^1.0.0": "consumeConsolePanel"
+      }
+    }
+  }
+}

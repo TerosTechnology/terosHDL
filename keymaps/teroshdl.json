@@ -1,0 +1,13 @@
+{
+    "atom-workspace atom-text-editor:not([mini])": {
+      "ctrl-shift-c": "TerosHDL:copy-as-component",
+      "ctrl-shift-i": "TerosHDL:copy-as-instance",
+      "ctrl-shift-s": "TerosHDL:copy-as-signals",
+      "ctrl-shift-m": "TerosHDL:copy-as-image",
+      "ctrl-shift-t": "TerosHDL:copy-as-tb",
+      "ctrl-o": "TerosHDL:show-structure",
+      "ctrl-right": "TerosHDL:goto",
+      "ctrl-left": "TerosHDL:return",
+      "ctrl-space": "TerosHDL:state-machine"
+    }
+}

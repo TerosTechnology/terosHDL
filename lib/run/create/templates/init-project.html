@@ -1,0 +1,64 @@
+<!-- Copyright 2018 Carlos Alberto Ruiz Naranjo, Ismael Pérez Rojo
+
+This file is part of TerosHDL.
+
+TerosHDL is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+TerosHDL is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with TerosHDL.  If not, see <https://www.gnu.org/licenses/>. -->
+
+<div class="apio apio-template-root pio-init">
+  <h1>TerosHDL: Initialize project/add module</h1>
+
+  <section>
+    <div class="name-text-wrapper">
+      <h2>Name:</h2>
+      <div class="settings-view">
+        <input class="name-text input-text" type="text" name="fname" placeholder='Project name'><br>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Choose mode: </h2>
+    <p class="selected-placeholder"></p>
+    <ul class="selected-modes"></ul>
+  </section>
+
+  <section>
+    <div class="mode-select-wrapper">
+      <div class="settings-view">
+        <select class="mode-select form-control">
+          <option value="initRepo">Init repository</option>
+          <option value="addModule">Add module</option>
+        </select>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="directory-select-wrapper">
+      <h2>Choose the directory:</h2>
+      <div class="settings-view">
+        <select class="directory-select dir-select-part form-control"></select>
+        <button class="other-directory btn btn-default">Other</button>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    </br>
+    <div class="controls">
+      <button class="do-init btn btn-lg btn-primary" disabled="disabled">Initialize</button>
+      <button class="cancel btn btn-lg btn-link">Cancel</button>
+    </div>
+  </section>
+</div>

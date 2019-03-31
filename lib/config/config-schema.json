@@ -1,0 +1,179 @@
+{
+  "general": {
+    "title": "General",
+    "type": "object",
+    "properties":
+    {
+      "hdl-language": {
+        "order": 1,
+        "title": "HDL language",
+        "description": "Select language support for the IDE.",
+        "type": "string",
+        "default": "vhdl",
+        "enum": ["vhdl","verilog"]
+      },
+      "simulator": {
+        "order": 2,
+        "title": "Simulator",
+        "description": "Select an installed simulator in your system.",
+        "type": "string",
+        "default": "ghdl",
+        "enum": ["ghdl","modelsim"]
+      },
+      "type-analyzer": {
+        "order": 3,
+        "title": "Type analyzer",
+        "description": "Activate ctags.",
+        "type": "boolean",
+        "default": false
+      }
+    }
+  },
+  "ghdl": {
+    "title": "ghdl",
+    "type": "object",
+    "properties":
+    {
+      "ghdl-path": {
+        "order": 1,
+        "title": "GHDL path",
+        "description": "GHDL simulator path.",
+        "type": "string",
+        "default": "/usr/local/bin/ghdl"
+      },
+      "sim-coverage-report-folder": {
+        "title": "Coverage report folder",
+        "description": "Select the folder to save the code coverage report. Relative to run.py file.",
+        "type": "string",
+        "default": "html"
+      },
+      "psl-support": {
+        "order": 2,
+        "title": "PSL support",
+        "description": "Enable PLS analisys.",
+        "type": "boolean",
+        "default": false
+      },
+      "ghdl-uvvm": {
+        "order": 3,
+        "title": "UVVM GHDL compiled libraries path",
+        "description": "Path to UVVM libraries compiled for GHDL. This can be done with the scripts provided with GHDL.",
+        "type": "string",
+        "default": ""
+      },
+      "ghdl-xlib-vivado": {
+        "order": 4,
+        "title": "Vivado Xlib GHDL compiled libraries path",
+        "description": "Path to Xilinx Vivado libraries compiled for GHDL. This can be done with the scripts provided with GHDL.",
+        "type": "string",
+        "default": ""
+      },
+      "ghdl-xlib-ise": {
+        "order": 5,
+        "title": "ISE Xlib GHDL compiled libraries path",
+        "description": "Path to Xilinx ISE libraries compiled for GHDL. This can be done with the scripts provided with GHDL.",
+        "type": "string",
+        "default": ""
+      }
+    }
+  },
+
+  "modelsim": {
+    "title": "Modelsim",
+    "type": "object",
+    "properties":
+    {
+      "modelsim-path": {
+        "order": 1,
+        "title": "Modelsim path",
+        "description": "Path to run vsim.",
+        "type": "string",
+        "default": "/opt/modelsim/18.0/modelsim_ase/linuxaloem"
+      },
+      "modelsim-ini": {
+        "order": 2,
+        "title": "Modelsim ini",
+        "description": "Path to the modelsim.ini file.",
+        "type": "string",
+        "default": "/opt/modelsim/18.0/modelsim_ase/modelsim.ini"
+      },
+      "modelsim-uvvm": {
+        "order": 3,
+        "title": "UVVM ModelSim compiled libraries path",
+        "description": "Path to UVVM libraries compiled for ModelSim. This can be done with the scripts provided with UVVM.",
+        "type": "string",
+        "default": ""
+      },
+      "modelsim-xlib-vivado": {
+        "order": 4,
+        "title": "Vivado Xlib ModelSim compiled libraries path",
+        "description": "Path to Xilinx libraries compiled for ModelSim. This can be done with Vivado.",
+        "type": "string",
+        "default": ""
+      },
+      "modelsim-xlib-ise": {
+        "order": 5,
+        "title": "ISE Xlib ModelSim compiled libraries path",
+        "description": "Path to Xilinx ISE libraries compiled for ModelSim.",
+        "type": "string",
+        "default": ""
+      }
+    }
+  },
+
+  "others": {
+    "title": "Others: Do not touch manually!!",
+    "type": "object",
+    "properties":
+    {
+      "sim-display-mode": {
+        "title": "Display mode",
+        "description": "**Do not touch manually!!**",
+        "type": "string",
+        "default": "terminal"
+      },
+      "sim-args": {
+        "title": "Simulation args",
+        "description": "**Do not touch manually!!**",
+        "type": "string",
+        "default": ""
+      },
+      "sim-runpy": {
+        "title": "Run.py file.",
+        "description": "**Do not touch manually!!**",
+        "type": "string",
+        "default": ""
+      },
+      "sim-runpy-new": {
+        "title": "Run.py file new.",
+        "description": "**Do not touch manually!!**",
+        "type": "string",
+        "default": ""
+      },
+      "sim-gtkwave-file-out": {
+        "title": "Gtkwave file",
+        "description": "**Do not touch manually!!**",
+        "type": "string",
+        "default": "/home/wave.ghw"
+      },
+      "sim-gtkwave-output": {
+        "title": "Gtkwave output",
+        "description": "**Do not touch manually!!**",
+        "type": "string",
+        "default": "ghw"
+      },
+      "sim-tests": {
+        "title": "Tests names",
+        "description": "**Do not touch manually!!**",
+        "type": "string",
+        "default": ""
+      },
+      "sim-tests-new": {
+        "title": "Tests names new",
+        "description": "**Do not touch manually!!**",
+        "type": "string",
+        "default": ""
+      }
+    }
+  }
+}
