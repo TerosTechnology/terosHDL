@@ -38,10 +38,6 @@ For waveform:
 
 - GTKWave/ModelSim
 
-For structure-view:
-
-- Ctags
-
 ## Installation
 
 ```apm install terosHDL```
