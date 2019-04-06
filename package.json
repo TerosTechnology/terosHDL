@@ -17,9 +17,6 @@
   "engines": {
     "atom": ">0.50.0"
   },
-  "os": [
-    "linux"
-  ],
   "dependencies": {
     "shelljs": ">=0.8.2",
     "child-process-promise": "^2.2.1",
