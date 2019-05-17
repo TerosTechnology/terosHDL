@@ -17,7 +17,7 @@ Currently we support:
 - Vhdl
 - VUnit.
 
-Soon we will support Verilog, Windows and others simulators.
+Soon we will support Verilog and others simulators.
 
 
 ## Dependencies
