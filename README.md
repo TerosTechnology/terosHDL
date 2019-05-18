@@ -22,9 +22,8 @@ Soon we will support Verilog and others simulators.
 
 ## Dependencies
 
-- Symbolator:
-```pip install symbolator```
-- TerosHDLbackend >= 0.1.0:
+- Symbolator: https://kevinpt.github.io/symbolator/#installation
+- TerosHDLbackend >= 0.1.1:
 ```pip install TerosHDL```
 - VUnit:
 ```pip install vunit_hdl```
