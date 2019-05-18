@@ -39,7 +39,7 @@
         "title": "GHDL path",
         "description": "GHDL simulator path.",
         "type": "string",
-        "default": "/usr/local/bin/ghdl"
+        "default": "C:\\ghdl_folder\\ghdl"
       },
       "sim-coverage-report-folder": {
         "title": "Coverage report folder",
