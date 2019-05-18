@@ -20,8 +20,15 @@
         "default": "ghdl",
         "enum": ["ghdl","modelsim"]
       },
-      "type-analyzer": {
+      "gtkwave-path": {
         "order": 3,
+        "title": "GTKWave folder path",
+        "description": "Path to GTKWave path.",
+        "type": "string",
+        "default": "/usr/local/bin"
+      },
+      "type-analyzer": {
+        "order": 4,
         "title": "Experimental! Type analyzer",
         "description": "Activate ctags.",
         "type": "boolean",
@@ -36,10 +43,10 @@
     {
       "ghdl-path": {
         "order": 1,
-        "title": "GHDL executable path",
+        "title": "GHDL path",
         "description": "GHDL simulator path.",
         "type": "string",
-        "default": "/usr/local/bin/ghdl"
+        "default": "/usr/local/bin"
       },
       "sim-coverage-report-folder": {
         "title": "Coverage report folder",
