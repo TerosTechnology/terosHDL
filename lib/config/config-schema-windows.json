@@ -88,14 +88,14 @@
         "title": "Modelsim path",
         "description": "Path to run vsim.",
         "type": "string",
-        "default": "/opt/modelsim/18.0/modelsim_ase/linuxaloem"
+        "default": "C:\\intelFPGA_pro\\18.0\\modelsim_ase\\win32aloem"
       },
       "modelsim-ini": {
         "order": 2,
         "title": "Modelsim ini",
         "description": "Path to the modelsim.ini file.",
         "type": "string",
-        "default": "/opt/modelsim/18.0/modelsim_ase/modelsim.ini"
+        "default": "C:\\intelFPGA_pro\\18.0\\modelsim_ase\\modelsim.ini"
       },
       "modelsim-uvvm": {
         "order": 3,
