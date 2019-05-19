@@ -25,7 +25,7 @@
         "title": "GTKWave folder path",
         "description": "Path to GTKWave path.",
         "type": "string",
-        "default": "/usr/local/bin"
+        "default": "C:\\gtkwave_folder"
       },
       "type-analyzer": {
         "order": 4,
@@ -46,7 +46,7 @@
         "title": "GHDL path",
         "description": "GHDL simulator path.",
         "type": "string",
-        "default": "/usr/local/bin"
+        "default": "C:\\ghdl_folder"
       },
       "sim-coverage-report-folder": {
         "title": "Coverage report folder",
@@ -95,14 +95,14 @@
         "title": "Modelsim path",
         "description": "Path to run vsim.",
         "type": "string",
-        "default": "/opt/modelsim/18.0/modelsim_ase/linuxaloem"
+        "default": "C:\\intelFPGA_pro\\18.0\\modelsim_ase\\win32aloem"
       },
       "modelsim-ini": {
         "order": 2,
         "title": "Modelsim ini",
         "description": "Path to the modelsim.ini file.",
         "type": "string",
-        "default": "/opt/modelsim/18.0/modelsim_ase/modelsim.ini"
+        "default": "C:\\intelFPGA_pro\\18.0\\modelsim_ase\\modelsim.ini"
       },
       "modelsim-uvvm": {
         "order": 3,
