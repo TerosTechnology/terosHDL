@@ -1,7 +1,7 @@
 {
   "name": "TerosHDL",
   "main": "./lib/main",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "A powerful HDL IDE with: simulation environment, code coverage, code checking, code completion, generation of block diagram and tests management.",
   "repository": "https://github.com/TerosTechnology/terosHDL",
   "keywords": [
@@ -17,6 +17,10 @@
   "engines": {
     "atom": ">0.50.0"
   },
+  "os": [
+    "linux",
+    "win32"
+  ],
   "dependencies": {
     "shelljs": ">=0.8.2",
     "child-process-promise": "^2.2.1",
