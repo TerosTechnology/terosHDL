@@ -35,6 +35,7 @@ For simulation:
 For code coverage:
 
 - Ghdl with GCC backend.
+- LCOV
 
 For waveform:
 
