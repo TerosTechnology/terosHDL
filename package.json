@@ -22,6 +22,7 @@
     "win32"
   ],
   "dependencies": {
+    "jsteros": "file:/home/carlos/repositorios/jsteros",
     "shelljs": ">=0.8.2",
     "child-process-promise": "^2.2.1",
     "electron-better-dialog": ">=1.0.6",
