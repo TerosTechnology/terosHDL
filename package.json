@@ -36,8 +36,16 @@
   "package-deps": [
     "tool-bar",
     "console-panel",
-    "language-vhdl"
+    "language-vhdl",
+    "linter"
   ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "2.0.0": "provideLinter"
+      }
+    }
+  },
   "consumedServices": {
     "tool-bar": {
       "versions": {
