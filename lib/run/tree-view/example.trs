@@ -1,0 +1,12 @@
+{
+  "version":"1.0.0",
+  "src": [
+    "src_0.vhd",
+    "src_1.vhd"
+  ],
+  "tb": [
+    "tb_0.vhd",
+    "tb_1.vhd",
+    "tb_2.vhd"
+  ]
+}
