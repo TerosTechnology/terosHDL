@@ -18,6 +18,7 @@
     "atom": ">0.50.0"
   },
   "os": [
+    "darwin",
     "linux",
     "win32"
   ],
