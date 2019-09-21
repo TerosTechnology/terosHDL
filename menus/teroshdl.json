@@ -17,8 +17,15 @@
             "command": "TerosHDL:copy-as-signals"
           },
           {
-            "label": "Copy as Tb",
+            "label": "Copy as HDL testbench",
             "command": "TerosHDL:copy-as-tb"
+          },
+          {
+            "label": "Copy as VUnit testbench",
+            "command": "TerosHDL:copy-as-vunit"
+          },
+          {
+            "type": "separator"
           },
           {
             "label": "Create run.py VUnit",
@@ -28,12 +35,8 @@
             "type": "separator"
           },
           {
-            "label": "Copy as Image Diagram",
+            "label": "Generate documentation",
             "command": "TerosHDL:copy-as-image"
-          },
-          {
-            "label": "Copy as doc",
-            "command": "TerosHDL:doc-ports"
           },
           {
             "label": "State machine diagram",
@@ -60,8 +63,12 @@
               "command": "TerosHDL:copy-as-signals"
             },
             {
-              "label": "Copy as Tb",
+              "label": "Copy as HDL testbench",
               "command": "TerosHDL:copy-as-tb"
+            },
+            {
+              "label": "Copy as VUnit testbench",
+              "command": "TerosHDL:copy-as-vunit"
             },
             {
               "label": "Create run.py VUnit",
@@ -71,12 +78,8 @@
               "type": "separator"
             },
             {
-              "label": "Copy as Image Diagram",
+              "label": "Generate documentation",
               "command": "TerosHDL:copy-as-image"
-            },
-            {
-              "label": "Copy as doc",
-              "command": "TerosHDL:doc-ports"
             },
             {
               "label": "State machine diagram",
