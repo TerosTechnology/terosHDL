@@ -22,15 +22,15 @@
           },
           {
             "label": "Copy as VUnit testbench",
-            "command": "TerosHDL:copy-as-vunit"
+            "command": "TerosHDL:copy-as-tb-vunit"
           },
           {
             "label": "Copy as CoCotb testbench",
-            "command": "TerosHDL:copy-as-cocotb"
+            "command": "TerosHDL:copy-as-tb-cocotb"
           },
           {
             "label": "Copy as Verilator testbench",
-            "command": "TerosHDL:copy-as-verilator"
+            "command": "TerosHDL:copy-as-tb-verilator"
           },
           {
             "type": "separator"
@@ -76,15 +76,15 @@
             },
             {
               "label": "Copy as VUnit testbench",
-              "command": "TerosHDL:copy-as-vunit"
+              "command": "TerosHDL:copy-as-tb-vunit"
             },
             {
               "label": "Copy as CoCotb testbench",
-              "command": "TerosHDL:copy-as-cocotb"
+              "command": "TerosHDL:copy-as-tb-cocotb"
             },
             {
               "label": "Copy as Verilator testbench",
-              "command": "TerosHDL:copy-as-verilator"
+              "command": "TerosHDL:copy-as-tb-verilator"
             },
             {
               "type": "separator"
