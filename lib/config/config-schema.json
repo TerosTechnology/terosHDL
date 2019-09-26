@@ -4,6 +4,20 @@
     "type": "object",
     "properties":
     {
+      "server-ip": {
+        "order": 1,
+        "title": "Server IP",
+        "description": "Server IP",
+        "type": "string",
+        "default": "localhost"
+      },
+      "server-port": {
+        "order": 1,
+        "title": "Server port",
+        "description": "Server port",
+        "type": "string",
+        "default": "8000"
+      },
       "hdl-language": {
         "order": 1,
         "title": "HDL language",
