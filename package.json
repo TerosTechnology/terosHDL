@@ -27,7 +27,7 @@
     "electron-better-dialog": ">=1.0.6",
     "atom-package-deps": "^4.3.1",
     "jquery": "^3.2.1",
-    "lodash": "^4.17.10",
+    "lodash": "^4.17.13",
     "vue": "1.0.27-csp",
     "state-machine-cat": ">=4.1.0"
   },
