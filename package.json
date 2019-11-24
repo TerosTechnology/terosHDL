@@ -26,7 +26,7 @@
     "child-process-promise": "^2.2.1",
     "electron-better-dialog": ">=1.0.6",
     "atom-package-deps": "^4.3.1",
-    "jquery": "^3.2.1",
+    "jquery": "^3.4.0",
     "lodash": "^4.17.10",
     "vue": "1.0.27-csp",
     "state-machine-cat": ">=4.1.0"
