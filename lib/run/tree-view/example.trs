@@ -1,12 +1,12 @@
 {
   "version":"1.0.0",
   "src": [
-    "src_0.vhd",
-    "src_1.vhd"
+    {"name":"src_0.vhd","type":""},
+    {"name":"src_1.vhd","type":""}
   ],
   "tb": [
-    "tb_0.vhd",
-    "tb_1.vhd",
-    "tb_2.vhd"
+    {"name":"tb_0.vhd","type":""},
+    {"name":"tb_1.vhd","type":""},
+    {"name":"tb_3.vhd","type":""}
   ]
 }
