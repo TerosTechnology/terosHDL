@@ -49,6 +49,13 @@
           {
             "label": "State machine diagram",
             "command": "TerosHDL:state-machine"
+          },
+          {
+            "type": "separator"
+          },
+          {
+            "label": "VHDL beautify",
+            "command": "TerosHDL:beautify"
           }
         ]
       }
@@ -103,6 +110,13 @@
             {
               "label": "State machine diagram",
               "command": "TerosHDL:state-machine"
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "label": "VHDL beautify",
+              "command": "TerosHDL:beautify"
             }
       ]
     }
