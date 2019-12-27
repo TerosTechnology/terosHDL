@@ -36,6 +36,77 @@
       }
     }
   },
+  "beautifuler": {
+    "title": "VHDL formatter and beautifuler",
+    "type": "object",
+    "properties":
+    {
+      "keyword-case": {
+        "order": 1,
+        "title": "Keyword case",
+        "type": "string",
+        "default": "LowerCase",
+        "enum": ["LowerCase","UpperCase"]
+      },
+      "type-name-case": {
+        "order": 2,
+        "title": "Type name case",
+        "type": "string",
+        "default": "LowerCase",
+        "enum": ["LowerCase","UpperCase"]
+      },
+      "remove-comments": {
+        "order": 3,
+        "title": "Remove comments",
+        "type": "boolean",
+        "default": "false"
+      },
+      "remove-asserts": {
+        "order": 4,
+        "title": "Remove asserts",
+        "type": "boolean",
+        "default": "false"
+      },
+      "indentation": {
+        "order": 5,
+        "title": "Indentation",
+        "type": "string",
+        "default": "  "
+      },
+      "mode": {
+        "order": 7,
+        "title": "Align mode",
+        "type": "string",
+        "default": "local",
+        "enum": ["local","global"]
+      },
+      "align-port": {
+        "order": 8,
+        "title": "Align signs in port",
+        "type": "boolean",
+        "default": "true"
+      },
+      "align-generic": {
+        "order": 9,
+        "title": "Align signs in generic",
+        "type": "boolean",
+        "default": "true",
+        "enum": ["true","false"]
+      },
+      "align-procedure": {
+        "order": 10,
+        "title": "Align signs in procedure",
+        "type": "boolean",
+        "default": "true"
+      },
+      "align-function": {
+        "order": 11,
+        "title": "Align signs in function",
+        "type": "boolean",
+        "default": "true"
+      }
+    }
+  },
   "ghdl": {
     "title": "ghdl",
     "type": "object",
