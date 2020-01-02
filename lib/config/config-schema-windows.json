@@ -41,6 +41,12 @@
     "type": "object",
     "properties":
     {
+      "on-save": {
+        "order": 0,
+        "title": "On save",
+        "type": "boolean",
+        "default": "false"
+      },
       "keyword-case": {
         "order": 1,
         "title": "Keyword case",
