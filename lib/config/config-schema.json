@@ -50,6 +50,29 @@
       }
     }
   },
+  "linters": {
+    "title": "Linters configuration",
+    "type": "object",
+    "properties":
+    {
+      "vhdl-linter": {
+        "order": 30,
+        "title": "VHDL linter",
+        "description": "VHDL linter backend.",
+        "type": "string",
+        "default": "ghdl",
+        "enum": ["ghdl","modelsim"]
+      },
+      "verilog-linter": {
+        "order": 40,
+        "title": "Verilog linter",
+        "description": "Verilog linter backend.",
+        "type": "string",
+        "default": "ghdl",
+        "enum": ["icarus","modelsim","verilator"]
+      }
+    }
+  },
   "beautifuler": {
     "title": "VHDL formatter and beautifuler",
     "type": "object",
