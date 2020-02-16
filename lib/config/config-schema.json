@@ -55,21 +55,27 @@
     "type": "object",
     "properties":
     {
+      "on-change": {
+        "order": 0,
+        "title": "On change",
+        "type": "boolean",
+        "default": "false"
+      },
+      "verilog-linter": {
+        "order": 1,
+        "title": "Verilog linter",
+        "description": "Verilog linter backend.",
+        "type": "string",
+        "default": "icarus",
+        "enum": ["icarus","modelsim","verilator"]
+      },
       "vhdl-linter": {
-        "order": 30,
+        "order": 2,
         "title": "VHDL linter",
         "description": "VHDL linter backend.",
         "type": "string",
         "default": "ghdl",
         "enum": ["ghdl","modelsim"]
-      },
-      "verilog-linter": {
-        "order": 40,
-        "title": "Verilog linter",
-        "description": "Verilog linter backend.",
-        "type": "string",
-        "default": "ghdl",
-        "enum": ["icarus","modelsim","verilator"]
       }
     }
   },
