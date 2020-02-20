@@ -18,22 +18,6 @@
         "type": "string",
         "default": "8000"
       },
-      "hdl-language": {
-        "order": 1,
-        "title": "HDL language",
-        "description": "Select language support for the IDE.",
-        "type": "string",
-        "default": "vhdl",
-        "enum": ["vhdl"]
-      },
-      "simulator": {
-        "order": 2,
-        "title": "Simulator",
-        "description": "Select an installed simulator in your system.",
-        "type": "string",
-        "default": "ghdl",
-        "enum": ["ghdl","modelsim"]
-      },
       "gtkwave-path": {
         "order": 3,
         "title": "GTKWave folder path",
@@ -47,6 +31,48 @@
         "description": "Activate ctags.",
         "type": "boolean",
         "default": false
+      }
+    }
+  },
+  "simulator-paths": {
+    "title": "Simulators paths",
+    "type": "object",
+    "properties":
+    {
+      "ghdl-path": {
+        "order": 1,
+        "title": "GHDL path",
+        "description": "GHDL simulator path.",
+        "type": "string",
+        "default": "/usr/local/bin"
+      },
+      "modelsim-path": {
+        "order": 2,
+        "title": "ModelSim path",
+        "description": "ModelSim simulator path.",
+        "type": "string",
+        "default": "/usr/local/bin"
+      },
+      "vivado-path": {
+        "order": 3,
+        "title": "Vivado path",
+        "description": "Vivado simulator path.",
+        "type": "string",
+        "default": "/usr/local/bin"
+      },
+      "verilator-path": {
+        "order": 4,
+        "title": "Verilator path",
+        "description": "Verilator simulator path.",
+        "type": "string",
+        "default": "/usr/local/bin"
+      },
+      "icarus-path": {
+        "order": 5,
+        "title": "Icarus path",
+        "description": "Icarus simulator path.",
+        "type": "string",
+        "default": "/usr/bin"
       }
     }
   },
@@ -67,7 +93,7 @@
         "description": "Verilog linter backend.",
         "type": "string",
         "default": "icarus",
-        "enum": ["icarus","modelsim","verilator"]
+        "enum": ["icarus","modelsim","verilator","vivado"]
       },
       "vhdl-linter": {
         "order": 2,
@@ -75,7 +101,7 @@
         "description": "VHDL linter backend.",
         "type": "string",
         "default": "ghdl",
-        "enum": ["ghdl","modelsim"]
+        "enum": ["ghdl","modelsim","vivado"]
       }
     }
   },
@@ -153,54 +179,6 @@
         "title": "Align signs in function",
         "type": "boolean",
         "default": "true"
-      }
-    }
-  },
-  "ghdl": {
-    "title": "ghdl",
-    "type": "object",
-    "properties":
-    {
-      "ghdl-path": {
-        "order": 1,
-        "title": "GHDL path",
-        "description": "GHDL simulator path.",
-        "type": "string",
-        "default": "/usr/local/bin"
-      },
-      "sim-coverage-report-folder": {
-        "title": "Coverage report folder",
-        "description": "Select the folder to save the code coverage report. Relative to run.py file.",
-        "type": "string",
-        "default": "html"
-      },
-      "psl-support": {
-        "order": 2,
-        "title": "PSL support",
-        "description": "Enable PLS analisys.",
-        "type": "boolean",
-        "default": false
-      }
-    }
-  },
-  "modelsim": {
-    "title": "Modelsim",
-    "type": "object",
-    "properties":
-    {
-      "modelsim-path": {
-        "order": 1,
-        "title": "Modelsim path",
-        "description": "Path to run vsim.",
-        "type": "string",
-        "default": "/opt/modelsim/18.0/modelsim_ase/linuxaloem"
-      },
-      "modelsim-ini": {
-        "order": 2,
-        "title": "Modelsim ini",
-        "description": "Path to the modelsim.ini file.",
-        "type": "string",
-        "default": "/opt/modelsim/18.0/modelsim_ase/modelsim.ini"
       }
     }
   }
