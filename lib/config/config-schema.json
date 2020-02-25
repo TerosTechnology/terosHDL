@@ -34,6 +34,27 @@
       }
     }
   },
+  "documenter": {
+    "title": "Documenter",
+    "type": "object",
+    "properties":
+    {
+      "vhdl-comment-symbol": {
+        "order": 1,
+        "title": "VHDL comment symbol",
+        "description": "VHDL comment symbol: // + ",
+        "type": "string",
+        "default": "!"
+      },
+      "verilog-comment-symbol": {
+        "order": 2,
+        "title": "Verilog comment symbol",
+        "description": "VHDL comment symbol: -- +",
+        "type": "string",
+        "default": "!"
+      }
+    }
+  },
   "simulator-paths": {
     "title": "Simulators paths",
     "type": "object",
