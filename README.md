@@ -9,72 +9,20 @@ Teros Technology: http://www.terostech.com/
 
 The goal of TerosHDL is make the FPGA development easier and reliable.  It is a powerful open source IDE.
 
+# Install
 
-Currently we support:
+1. Intall Atom: https://atom.io/
+2. Intall Triel:
+```
+pip install git+https://github.com/TerosTechnology/triel.git@develop
+```
+3. Install TerosHDL:
+```
+git clone https://github.com/TerosTechnology/terosHDL.git
+cd teros terosHDL
+apm install .
+```
 
-- Ghdl.
-- ModelSim.
-- Vhdl
-- VUnit.
-
-Soon we will support Verilog and others simulators.
-
-
-## Dependencies
-
-- Symbolator: https://kevinpt.github.io/symbolator/#installation
-- TerosHDLbackend >= 0.1.1:
-```pip install TerosHDL```
-- VUnit:
-```pip install vunit_hdl```
-
-For simulation:
-
-- Ghdl/Modelsim
-
-For code coverage:
-
-- Ghdl with GCC backend.
-- LCOV
-
-For waveform:
-
-- GTKWave/ModelSim
-
-## Installation
-
-```apm install terosHDL```
-
-## Getting started guide
-
-### Runing test
-
-![Running_test](https://raw.githubusercontent.com/TerosTechnology/terosHDL/develop/doc/images/run_test.gif
-)
-
-### Code coverage
-
-![Code_coverage](https://raw.githubusercontent.com/TerosTechnology/terosHDL/develop/doc/images/code_coverage_1.gif
-)
-
-### Creating component diagram
-
-![diagram](https://raw.githubusercontent.com/TerosTechnology/terosHDL/develop/doc/images/diagram.gif)
-
-### Structure view
-
-![diagram](https://raw.githubusercontent.com/TerosTechnology/terosHDL/develop/doc/images/view.gif)
-
-### State machine diagram
-
-This is an experimental feature. Not all state machines are supported.
-
-![diagram](https://raw.githubusercontent.com/TerosTechnology/terosHDL/develop/doc/images/state_machine.gif
-)
-
-## User Manual
-
-You have a complete [user manual.](https://github.com/TerosTechnology/terosHDL/blob/master/doc/User_Manual.md)
 
 # License
 
