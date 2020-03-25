@@ -52,6 +52,13 @@
         "description": "VHDL comment symbol: -- +",
         "type": "string",
         "default": "!"
+      },
+      "include-dependency-graph": {
+        "order": 3,
+        "title": "Dependency graph",
+        "description": "Include dependency graph in the project README.md",
+        "type": "boolean",
+        "default": true
       }
     }
   },
