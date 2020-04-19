@@ -1,5 +1,6 @@
 {
   "general": {
+    "order": 10,
     "title": "General",
     "type": "object",
     "properties":
@@ -18,7 +19,7 @@
         "description": "Select an installed simulator in your system.",
         "type": "string",
         "default": "ghdl",
-        "enum": ["ghdl","modelsim"]
+        "enum": ["ghdl","modelsim","xsim"]
       },
       "gtkwave-path": {
         "order": 3,
@@ -36,7 +37,25 @@
       }
     }
   },
+
+  "xsim": {
+    "order": 20,
+    "title": "xsim",
+    "type": "object",
+    "properties":
+    {
+      "xsim-path": {
+        "order": 1,
+        "title": "XSIM path",
+        "description": "XSIM simulator path.",
+        "type": "string",
+        "default": "C:\\Xilinx\\2018.2\\bin"
+      }
+    }
+  },
+
   "ghdl": {
+    "order": 30,
     "title": "ghdl",
     "type": "object",
     "properties":
@@ -86,6 +105,7 @@
   },
 
   "modelsim": {
+    "order": 40,
     "title": "Modelsim",
     "type": "object",
     "properties":
@@ -129,6 +149,7 @@
   },
 
   "others": {
+    "order": 50,
     "title": "Others: Do not touch manually!!",
     "type": "object",
     "properties":
