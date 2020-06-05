@@ -5,7 +5,7 @@
     "type": "object",
     "properties":
     {
-      "python"{
+      "python": {
         "order": 0,
         "title": "Python",
         "description": "Select your python path",
