@@ -5,6 +5,14 @@
     "type": "object",
     "properties":
     {
+      "python"{
+        "order": 0,
+        "title": "Python",
+        "description": "Select your python path",
+        "type": "string",
+        "default": "python",
+        "enum": ["python, python3"]
+      }
       "hdl-language": {
         "order": 1,
         "title": "HDL language",
