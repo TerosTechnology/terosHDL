@@ -11,7 +11,7 @@
         "description": "Select your python path",
         "type": "string",
         "default": "python",
-        "enum": ["python, python3"]
+        "enum": ["python", "python3"]
       },
       "hdl-language": {
         "order": 1,
